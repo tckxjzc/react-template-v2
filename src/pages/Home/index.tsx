@@ -25,7 +25,7 @@ class Home extends Component<Props> {
     }
 
     render() {
-        return <div>
+        return <div className={'tz-container'}>
             Home
         </div>
     }
