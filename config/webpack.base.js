@@ -46,7 +46,7 @@ module.exports = {
                 use: [
                     {
                         loader: 'babel-loader',
-                        options:require('../babel.config'),
+                        // options:require('../babel.config'),
                     }
                 ],
                 ...include
@@ -57,7 +57,7 @@ module.exports = {
 
                     {
                         loader: 'babel-loader',
-                        options:require('../babel.config')
+                        // options:require('../babel.config')
                     },
                     "ts-loader"
                 ],
