@@ -49,7 +49,7 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.25.0",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "3.1.10",
+    "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
@@ -63,7 +63,6 @@
     "react-dom": "16.7.0",
     "react-router-dom": "^4.2.2",
     "react-transition-group": "^2.3.1",
-    "tz-library": "https://github.com/tckxjzc/tz-library.git#2.0",
     "whatwg-fetch": "^2.0.4"
   }
 }

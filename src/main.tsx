@@ -5,8 +5,8 @@ import App from "./App";
  * styles
  */
 import 'styles/base.global.scss';
-import 'tz-library/style/base.scss';
-import 'tz-library/style/mobile.media.scss';
+// import 'tz-library/style/base.scss';
+// import 'tz-library/style/mobile.media.scss';
 
 /**
  * start

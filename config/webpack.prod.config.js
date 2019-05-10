@@ -12,7 +12,11 @@ module.exports=merge(baseConfig,{
         'react':'React',
         'react-dom': 'ReactDOM',
         'react-router-dom':'ReactRouterDOM',
-        'swiper':'Swiper'
+        'jquery':'$',
+        'moment':'moment',
+        'swiper':'Swiper',
+        'mobx':'mobx',
+        'mobx-react':'mobxReact',
     },
     plugins:[
         new webpack.DefinePlugin({
@@ -42,6 +46,6 @@ module.exports=merge(baseConfig,{
             ],
             filename:`${dist}/index.html`
         }),
-        new PreloadWebpackPlugin()
+        // new PreloadWebpackPlugin()
     ]
 });
