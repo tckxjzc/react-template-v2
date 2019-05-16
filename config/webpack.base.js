@@ -42,6 +42,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(txt|glsl|vert|frag|obj|mtl)$/,
+                use: 'raw-loader'
+            },
+            {
                 test: /\.(js|jsx)$/,
                 use: [
                     {
