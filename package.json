@@ -6,8 +6,9 @@
   "author": "tckxjzc",
   "license": "MIT",
   "scripts": {
-    "start": "node ./build/dev-start.js",
-    "build": "node ./build/build.js"
+    "start": "node ./build/dev-start.js --dev",
+    "build": "node ./build/build.js",
+    "prod-server": "node ./build/prod-server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

@@ -1,7 +1,8 @@
 let path=require('path');
+let prods=!process.argv.includes('--dev');
 module.exports = {
     title: '',
-    isProds:process.env.tz_build=='prods',
+    isProds:prods,
     dist:path.resolve(__dirname,'../dist'),
     resourceOutput: 'resource',
     publicPath:'/'
